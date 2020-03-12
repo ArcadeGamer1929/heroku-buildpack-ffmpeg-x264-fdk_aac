@@ -1,4 +1,4 @@
-Heroku buildpack: FFMpeg with prebuilt x264 and fdk_acc
+Heroku buildpack: ffmpeg with prebuilt x264 and fdk_acc
 =======================
 
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for using [ffmpeg](http://www.ffmpeg.org/) in your project.  
@@ -16,7 +16,7 @@ To use this buildpack, you should prepare .buildpacks file that contains this bu
     https://github.com/Litterfeldt/heroku-buildpack-ffmpeg-x264-fdk_aac
     https://github.com/heroku/heroku-buildpack-play
 
-    $ heroku create --buildpack https://github.com/ddollar/heroku-buildpack-multi
+    $ heroku create --buildpack https://github.com/ArcadeGamer1929/heroku-buildpack-multi
 
     $ git push heroku master
     ...
